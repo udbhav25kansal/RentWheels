@@ -15,6 +15,6 @@ MainFrame::MainFrame(const wxString& title): wxFrame(nullptr,wxID_ANY,title) {
 	
 	wxPNGHandler* handler = new wxPNGHandler;
 	wxImage::AddHandler(handler);
-	wxStaticBitmap* logo = new wxStaticBitmap(panel, wxID_ANY, wxBitmap("C:\\Users\\suyas\\source\\repos\\RentWheels\\logo.png", wxBITMAP_TYPE_PNG), wxPoint(270, 50), wxSize(200,200));
+	wxStaticBitmap* logo = new wxStaticBitmap(panel, wxID_ANY, wxBitmap("logo.png", wxBITMAP_TYPE_PNG), wxPoint(270, 50), wxSize(200,200));
 	
 }
