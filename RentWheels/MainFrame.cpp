@@ -19,11 +19,11 @@ MainFrame::MainFrame(const wxString& title): wxFrame(nullptr,wxID_ANY,title) {
 	wxFont myFont(12, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL);
 
 	wxButton* loginBtn = new wxButton(panel, LOGIN_PAGE_BTN, "Login", wxPoint(200, 250), wxSize(150, 50));
-	loginBtn->SetBackgroundColour(wxColor("#4A7A76"));
+	loginBtn->SetBackgroundColour(wxColor("#99667B"));
 	loginBtn->SetFont(wxFont(myFont));
 
 	wxButton* registerBtn = new wxButton(panel, REGISTER_PAGE_BTN, "Register", wxPoint(400, 250), wxSize(150, 50));
-	registerBtn->SetBackgroundColour(wxColor("#4A7A76"));
+	registerBtn->SetBackgroundColour(wxColor("#669984"));
 	registerBtn->SetFont(wxFont(myFont));
 
 	wxPNGHandler* handler = new wxPNGHandler;

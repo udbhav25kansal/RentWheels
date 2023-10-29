@@ -35,7 +35,7 @@ LoginPage::LoginPage(const wxString& title) : wxFrame(nullptr, wxID_ANY, title) 
 	password->SetFont(fieldFont);
 
 	wxButton* loginBtn = new wxButton(panel, LOGIN_BTN, "Login", wxPoint(250, 230), wxSize(300, 50));
-	loginBtn->SetBackgroundColour(wxColor("#4A7A76"));
+	loginBtn->SetBackgroundColour(wxColor("#99667B"));
 	loginBtn->SetFont(wxFont(buttonFont));
 
 }

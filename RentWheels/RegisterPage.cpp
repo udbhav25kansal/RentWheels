@@ -39,8 +39,8 @@ RegisterPage::RegisterPage(const wxString& title) : wxFrame(nullptr, wxID_ANY, t
 	ConfirmPasswordTextDisplay->SetFont(fieldFont);
 	confirmPassword->SetFont(fieldFont);
 
-	wxButton* registerBtn = new wxButton(panel, REGISTER_BTN, "Register", wxPoint(250, 300), wxSize(300, 50));
-	registerBtn->SetBackgroundColour(wxColor("#4A7A76"));
+	wxButton* registerBtn = new wxButton(panel, REGISTER_BTN, "Register", wxPoint(250, 300), wxSize(300, 50), wxBORDER_NONE);
+	registerBtn->SetBackgroundColour(wxColor("#669984"));
 	registerBtn->SetFont(wxFont(buttonFont));
 }
 
