@@ -5,12 +5,12 @@
 
 wxIMPLEMENT_APP(App);
 
-
 bool App::OnInit() {
-	MainFrame* mainFrame = new MainFrame("Rent Wheels");
+	MainFrame *mainFrame = new MainFrame("Rent Wheels");
 	mainFrame->SetClientSize(800, 400);
 	mainFrame->EnableMaximizeButton(false);
 	mainFrame->Center();
 	mainFrame->Show();
+
 	return true;
 }
