@@ -7,5 +7,6 @@ public:
 	MainFrame(const wxString& title);
 private:
 	void LoginButtonClick(wxCommandEvent& event);
+	void RegisterButtonClick(wxCommandEvent& event);
 	wxDECLARE_EVENT_TABLE();
 };

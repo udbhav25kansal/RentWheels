@@ -24,6 +24,9 @@
     <ClInclude Include="LoginPage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RegisterPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFrame.cpp">
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LoginPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterPage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
